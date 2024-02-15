@@ -55,7 +55,6 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     min-height: 450px;
     margin-inline: auto;
     padding: 50px;
@@ -211,4 +210,76 @@ img {
     background: #232526;
     background: -webkit-linear-gradient(to right, #414345, #232526);
     background: linear-gradient(to right, #414345, #232526);
+}
+
+@media (max-width: 968px) {
+
+    .container {
+        padding-top: 120px;
+    }
+
+    .clock__time-wrapper {
+        font-size: 1.1rem;
+    }
+
+    .clock__time {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        padding-top: 100px;
+    }
+
+    .clock {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .clock__time-wrapper {
+        font-size: 1.3rem;
+        width: 45%;
+    }
+
+    .clock__time {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .clock__time-wrapper {
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+    .clock__time {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .clock__time-wrapper {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .clock__time {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .clock__time-wrapper {
+        font-size: 1.1rem;
+        width: 100%;
+    }
+
+    .clock__time {
+        font-size: 3rem;
+    }
 }
